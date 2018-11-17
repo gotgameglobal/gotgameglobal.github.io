@@ -20,7 +20,7 @@ $(function() {
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
-        url: "././mail/contact_me.php",
+        url: "https://getsimpleform.com/messages?form_api_token=7665341a5c9664d6cbdcd5132d60b666",
         type: "POST",
         data: {
           name: name,
